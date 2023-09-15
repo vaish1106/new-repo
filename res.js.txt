@@ -1,0 +1,27 @@
+let food1s = document.getElementById("food1");
+let food2s = document.getElementById("food2");
+let food3s = document.getElementById("food3");
+let food4s = document.getElementById("food4");
+let food5s = document.getElementById("food5");
+let foods = document.getElementById("food");
+
+food1s.addEventListener("click", () => {
+  foods.style.backgroundImage =
+    "url('https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600')";
+});
+food2s.addEventListener("click", () => {
+  foods.style.backgroundImage =
+    "url('https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600')";
+});
+food3s.addEventListener("click", () => {
+  foods.style.backgroundImage =
+    "url('https://images.pexels.com/photos/1251196/pexels-photo-1251196.jpeg?auto=compress&cs=tinysrgb&w=600')";
+});
+food4s.addEventListener("click", () => {
+  foods.style.backgroundImage =
+    "url('https://images.pexels.com/photos/264939/pexels-photo-264939.jpeg?auto=compress&cs=tinysrgb&w=600')";
+});
+food5s.addEventListener("click", () => {
+  foods.style.backgroundImage =
+    "url('https://images.pexels.com/photos/2433979/pexels-photo-2433979.jpeg?auto=compress&cs=tinysrgb&w=600')";
+});

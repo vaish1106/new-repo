@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 99%;
+  height: 97%;
+  background-image: url("https://images.pexels.com/photos/319382/pexels-photo-319382.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0px 40px;
+}
+.logo {
+  font-size: 30px;
+  color: black;
+}
+.nav {
+  position: center;
+  left: -100px;
+}
+a {
+  padding: 5px 15px;
+  color: green;
+  font-size: 18px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+  text-underline-position: under;
+}
+.search {
+  font-size: 25px;
+}
+.search i {
+  padding: 5px 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 65px;
+  align-items: center;
+}
+.right {
+  width: 440px;
+  height: 440px;
+  background-image: url("https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600");
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+.right::before {
+  width: 427px;
+  height: 427px;
+  border: 2px solid white;
+  content: "";
+  position: absolute;
+  padding: 10px;
+}
+
+.left p:nth-child(1) {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.left h1 {
+  font-size: 90px;
+  color: white;
+  font-style: bold;
+}
+.left p:nth-child(3) {
+  color: green;
+  font-size: 30px;
+  font-style: italic;
+}
+.left button {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin: 20px 0px;
+}
+
+.SocialMedia {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 40px;
+  height: 200px;
+  background-color: white;
+  font-size: 25px;
+}
+
+.SocialMedia i:hover {
+  color: blue;
+}
+#food1,
+#food2,
+#food3,
+#food4,
+#food5 {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  margin: 0px 20px;
+}
+#food1 {
+  background-image: url("https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#food2 {
+  background-image: url("https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#food3 {
+  background-image: url("https://images.pexels.com/photos/1251196/pexels-photo-1251196.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#food4 {
+  background-image: url("https://images.pexels.com/photos/264939/pexels-photo-264939.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#food5 {
+  background-image: url("https://images.pexels.com/photos/2433979/pexels-photo-2433979.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.menu {
+  display: flex;
+  margin: 0px 100px;
+}
+.left button:hover {
+  background-color: black;
+  color: red;
+}
